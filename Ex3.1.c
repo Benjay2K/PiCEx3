@@ -7,6 +7,7 @@ int main() {
     //scan for integer
     printf("Please enter an integer\n");
     scanf( "%d", &num );
+    printf("Properties for %d:\n\n", num);
 
     //check if number is even or odd
     if(num % 2 == 0)
