@@ -9,13 +9,13 @@ int main() {
     scanf( "%d", &num );
     printf("Properties for %d:\n\n", num);
 
-    //check if number is even or odd
+    //ch1eck if number is even or odd
     if(num % 2 == 0)
         printf("%d is even.\n", num);
     else
         printf("%d is odd.\n", num);
 
-    //check if number is divisible by 3 or not
+    //ch1eck if number is divisible by 3 or not
     if(num % 3 == 0)
     {
         printf("%d is divisible by 3.\n", num);
@@ -25,7 +25,7 @@ int main() {
         printf("%d is not divisible by 3.\n", num);
     }
 
-    //check if number is positive or negative
+    //ch1eck if number is positive or negative
     if (num <= 0.0) {
         if (num == 0.0)
             printf("You entered 0.\n");
@@ -35,7 +35,7 @@ int main() {
     else
         printf("%d is a positive number.\n", num);
 
-    //check if number +1 is divisible by 7 or not
+    //ch1eck if number +1 is divisible by 7 or not
     if((num + 1) % 7 == 0)
     {
         printf("%d incremented is divisible by 7.\n", num);
