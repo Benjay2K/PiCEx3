@@ -18,7 +18,7 @@ int test_palindromic(unsigned int n)
 {
     unsigned int reversed_num = 0, t = n;       //temporary var for number that is checked for palindrome
     while (t) {
-        reversed_num = 10 * reversed_num + (t % 10);       //is reversed number the same as before
+        reversed_num = 10 * reversed_num + (t % 10);       //is reversed number the same as before (+remainder)
         t /= 10;
     }
     return reversed_num == n;
